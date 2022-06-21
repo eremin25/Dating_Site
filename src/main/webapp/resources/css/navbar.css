@@ -1,0 +1,68 @@
+nav {
+    border-radius: 100px;
+    width: 90%;
+    position: fixed;
+    top: 30px;
+    left: 5%;
+    background-color: darkgrey;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5e68a9;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 22px;
+}
+
+.navbar-search {
+    float: left;
+    padding: 20px;
+}
+
+.navbar-dropdown {
+    float: left;
+    padding: 22px;
+    display: block;
+    left: 550px;
+    position: relative;
+}
+
+.navbar-dropdown ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    top: 60px;
+    right: 5px;
+}
+
+.navbar-dropdown:hover ul {
+    display: block;
+}
+
+.navbar-profile {
+    float: right;
+    padding: 22px;
+}
+
+input[type=text] {
+    background-color: white;
+    background-position: 5px 3px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    height: 25px;
+    width: 200px;
+    background-image: url('https://www.schoolsw3.com/css/searchicon.png');
+}
+
+.navbar-search button {
+    border-radius: 12px;
+    border-color: burlywood;
+    padding: 4px 16px;
+    background-color: rgba(222, 184, 135, 0.62);
+}
+
